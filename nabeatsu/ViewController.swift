@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         label.text = "\(0)"
     }
+    
     func isAho() ->Bool{
         //問題1
         if number % 3 == 0{
@@ -31,9 +32,9 @@ class ViewController: UIViewController {
         
         
         //問題3
-        if number / 10 % 10 == 3 {
-            return true//アホになる
-        }
+//        if number / 10 % 10 == 3 {
+//            return true//アホになる
+//        }
         
         //問題4
         var checkNum : Int
